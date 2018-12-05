@@ -9,3 +9,11 @@ Criar uma unica instancia de um objeto e facilitar acesso a essa instancia. Util
 
 Leituras Adicionais:
 [DevMedia](https://www.devmedia.com.br/padrao-de-projeto-singleton-em-java/26392)
+
+# Factory Method
+Encapsular a escolha da classe concreta a ser utilizada na criação de objetos de um determinado tipo
+
+**Segundo o GOF (Group Of Four) o padrão Factory Method é**: *“Um padrão que define uma interface para criar um objeto, mas permite às classes decidirem qual classe instanciar. O Factory Method permite a uma classe deferir a instanciação para subclasses”.*
+
+Leituras Adicionais:
+[DevMedia](https://www.devmedia.com.br/padrao-de-projeto-factory-method-em-java/26348)
