@@ -10,5 +10,10 @@ package Singleton;
  * @author Amador
  */
 public class Singleton {
-    
+
+    public static void main(String[] args) {
+        Configuração cfg1 = Configuração.getInstancia();
+        Configuração cfg2 = Configuração.getInstancia();
+        System.out.println("Objetos iguais? " + cfg1.equals(cfg2));
+    }
 }
