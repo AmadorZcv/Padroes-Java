@@ -1,5 +1,5 @@
 # Padrões de projeto em java para estudo
-
+*Maioria dos codigos fornecidos pelo Professor Fábio Bezerra para matéria Lab. de Produção de Software*
 # Singleton
 Criar uma unica instancia de um objeto e facilitar acesso a essa instancia. Utilizado principalmente para arquivos de configuração ou conexão com banco de dados
 
