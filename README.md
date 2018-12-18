@@ -17,3 +17,6 @@ Encapsular a escolha da classe concreta a ser utilizada na criação de objetos 
 
 Leituras Adicionais:
 [DevMedia](https://www.devmedia.com.br/padrao-de-projeto-factory-method-em-java/26348)
+
+# Abstract Factory
+Encapsular a escolha das classes concretas a serem utilizadas na criação dos objetos de diversas famílias
