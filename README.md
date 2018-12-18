@@ -20,3 +20,6 @@ Leituras Adicionais:
 
 # Abstract Factory
 Encapsular a escolha das classes concretas a serem utilizadas na criação dos objetos de diversas famílias
+
+A idéia é que a aplicação não chame diretamente as classes concretas, e que a adição ou remoção de um tipo de interface dê o menor trabalho possível, portanto vamos criar uma classe abstrata para que a classe cliente que necessitar de um metodo de pagamento, por exemplo, não saiba se o cartão é de “VisoViaCielo” ou “VisoViaRede”, ela tem de saber apenas que é um Visa.
+Crédito:[DevMedia](https://www.devmedia.com.br/padrao-abstract-factory/23030)
