@@ -29,3 +29,8 @@ Crédito:[DevMedia](https://www.devmedia.com.br/padrao-abstract-factory/23030)
 Separar o processo de construção de um objeto de sua representação e permitir a sua criação passo-a-passo,geralmente por se tratar de um objeto complexo. Diferentes representações de objetos podem ser criadas com passo a passo distintos.
 *“Separar a construção de um objeto complexo de sua representação de modo que o mesmo processo de construção possa criar diferentes representações.”*
 Crédito e leitura adicional:[Marcos Brizeno](https://brizeno.wordpress.com/category/padroes-de-projeto/builder/)
+
+# Protoype
+
+Possibilitar a criação de novos objetos a partir da cópia de objetos existentes.
+
