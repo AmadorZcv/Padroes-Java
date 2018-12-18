@@ -5,10 +5,23 @@
  */
 package Builder;
 
+import java.util.Date;
+
 /**
  *
  * @author Amador
  */
 public class Builder {
-    
+
+    public static void main(String[] args) {
+        BoletoBuilder builder1 = new BoletoBuilderBB();
+        builder1.adicionarCedente("Fábio Bezerra", "BPMLAB-ICIBE-UFRA").adicionarLinhaDigitavel("123.456.789.000").adicionarSacado("Fulano de Tal", "Rua Tal, 1", "66.000-060").adicionarValor(155.00).adicionarVencimento(new Date());
+        Boleto boletoBB = builder1.construir();
+        boletoBB.imprimir();
+        System.out.println("\n\n\n");
+        BoletoBuilder builder2 = new BoletoBuilderItau();
+        builder2.adicionarCedente("Fábio Bezerra", "BPMLAB-ICIBE-UFRA").adicionarLinhaDigitavel("000.111.222.333.444").adicionarSacado("Beltrano da Silva", "Rua Tal, 1", "66.000-060").adicionarValor(55.10).adicionarVencimento(new Date());
+        Boleto boletoItau = builder2.construir();
+        boletoItau.imprimir();
+    }
 }
