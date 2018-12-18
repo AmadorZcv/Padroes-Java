@@ -22,12 +22,15 @@ Leituras Adicionais:
 Encapsular a escolha das classes concretas a serem utilizadas na criação dos objetos de diversas famílias
 
 A idéia é que a aplicação não chame diretamente as classes concretas, e que a adição ou remoção de um tipo de interface dê o menor trabalho possível, portanto vamos criar uma classe abstrata para que a classe cliente que necessitar de um metodo de pagamento, por exemplo, não saiba se o cartão é de “VisoViaCielo” ou “VisoViaRede”, ela tem de saber apenas que é um Visa.
+
 Crédito:[DevMedia](https://www.devmedia.com.br/padrao-abstract-factory/23030)
 
 # Builder
 
 Separar o processo de construção de um objeto de sua representação e permitir a sua criação passo-a-passo,geralmente por se tratar de um objeto complexo. Diferentes representações de objetos podem ser criadas com passo a passo distintos.
+
 *“Separar a construção de um objeto complexo de sua representação de modo que o mesmo processo de construção possa criar diferentes representações.”*
+
 Crédito e leitura adicional:[Marcos Brizeno](https://brizeno.wordpress.com/category/padroes-de-projeto/builder/)
 
 # Protoype
